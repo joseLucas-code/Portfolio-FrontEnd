@@ -9,7 +9,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html,body {
+html {
     scroll-behavior: smooth;
 }
 
@@ -76,6 +76,8 @@ img{
 .home-heading h1{
     font-size: 3rem;
     text-shadow: 3px 5px 3px black;
+    opacity: 0;
+    animation: moveUp 1s .4s forwards;
 }
 
 .home-heading p{
@@ -83,6 +85,8 @@ img{
     margin-bottom: 20px;
     font-size: 1.5rem;
     text-shadow: 3px 4px 0 #000;
+    animation: moveUp 1s .5s forwards;
+    opacity: 0;
 }
 
 .home-heading a{
@@ -94,6 +98,8 @@ img{
     background: linear-gradient(to left, #a044ff, #6a3093);
     text-decoration: none;
     border-radius: 5px;
+    animation: moveUp 1s .6s forwards;
+    opacity: 0;
 }
 
 .home-heading a:hover{
@@ -101,6 +107,17 @@ img{
     background: #6a3093b0;
     background: -webkit-linear-gradient(to right, #a244ffc5, #6a3093bb);
     background: linear-gradient(to left, #a244ffc5, #6a3093bb);
+}
+
+@keyframes moveUp{
+    0%{
+        transform: translateY(70px);
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .menu-hamburguer{
