@@ -237,7 +237,7 @@ section.knowledge h2{
     grid-row: 2 / 3;
 }
 
-.knowledge-box-single.box-react{
+.knowledge-box-single.box-ts{
     grid-column: 7 / 9;
     grid-row: 2 / 3;
 }
@@ -247,14 +247,15 @@ section.knowledge h2{
     grid-row: 3 / 4;
 }
 
-.knowledge-box-single.box-node{
-    grid-column: 6 / 8;
-    grid-row: 3 / 4;
-}
 
-.knowledge-box-single.box-ts{
+.knowledge-box-single.box-node{
     grid-column: 4 / 6;
     grid-row: 4 / 5;
+}
+
+.knowledge-box-single.box-react{
+    grid-column: 6 / 8;
+    grid-row: 3 / 4;
 }
 
 .knowledge-box-single {
@@ -330,7 +331,6 @@ section.projects h2{
     position: absolute;
     top: 12%;
     color: #FFF;
-    opacity: 0;
     text-shadow: 3px 3px 3px #000;
     transition: all .3s;
 }
@@ -366,7 +366,6 @@ section.projects h2{
 
 .project-box-single:hover .project-content{
     top: 10%;
-    opacity: 1;
 }
 
 .project-box-single:hover .project-img-wraper img{
@@ -505,6 +504,16 @@ section.certificates h2{
     .knowledge-box-single.box-ts{
         grid-column: auto;
         grid-row: auto;
+    }
+
+    /* PROJECTS */
+    
+    .project-img-wraper img{
+        opacity: .5;
+    }
+    
+    .project-content{
+        top: 10%;
     }
 }
 
