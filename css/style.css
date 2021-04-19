@@ -13,6 +13,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body.overflow-hidden{
+    overflow: hidden;
+}
+
 /* variables */
 
 :root{
@@ -440,6 +444,48 @@ section.certificates h2{
 .certificate-box-single:hover .certificate-magnifier{
     opacity: 1;
 }
+
+/* FULL SCREEN CERTIFICATE STYLING */
+
+.fullscreen-view{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.89);
+    z-index: 5;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.fullscreen-view.open-fullscreen{
+    display: flex;
+}
+
+i.close-fullscreen{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 3rem;
+    color: #FFF;
+    cursor: pointer;
+    text-shadow: 5px 5px 2px #000;
+}
+
+.fullscreen-img-wraper{
+    flex: 1 0 320px;
+    max-width: 1280px;
+}
+
+.fullscreen-img-wraper img{  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 /* FOOTER STYLING */
 
