@@ -215,6 +215,49 @@ aside.navigation-menu .social-links a:hover{
     border: 2px solid #6a3093;
 }
 
+/* ABOUT STYLING */
+
+.about{
+    padding: 40px 2%;
+    text-align: center;
+}
+
+.about h2{
+    display: inline-block;
+    font-size: 2.5rem;
+    color: var(--font-color-primary);
+    font-weight: 700;
+    border-bottom: 3px solid #6a3093;
+    padding-bottom: 10px;
+    margin-bottom: 25px; 
+}
+
+.about-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.perfil-img{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.perfil-img img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-content{
+    flex: 1;
+}
+
+.about-content p{
+    margin: 15px 0;
+}
+
+
 /* KNOWLEDGE STYLING */
 section.knowledge{
     padding: 40px 2%;
@@ -268,15 +311,19 @@ section.knowledge h2{
     grid-row: 3 / 4;
 }
 
-
-.knowledge-box-single.box-node{
-    grid-column: 4 / 6;
-    grid-row: 4 / 5;
-}
-
 .knowledge-box-single.box-react{
     grid-column: 6 / 8;
     grid-row: 3 / 4;
+}
+
+.knowledge-box-single.box-node{
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+}
+
+.knowledge-box-single.box-github{
+    grid-column: 6 / 8;
+    grid-row: 4 / 5;
 }
 
 .knowledge-box-single {
@@ -569,6 +616,11 @@ i.close-fullscreen{
         grid-row: auto;
     }
 
+    .knowledge-box-single.box-github{
+        grid-column: auto;
+        grid-row: auto;
+    }
+
     /* PROJECTS */
     
     .project-img-wraper img{
@@ -581,6 +633,16 @@ i.close-fullscreen{
 }
 
 @media (max-width: 600px){
+
+    .about-flex{
+        flex-flow: column wrap;
+    }
+
+    .perfil-img{
+        width: 100%;
+        margin: 20px 0;
+    }
+
     .rodape .center-content{
         justify-content:center;
     }
