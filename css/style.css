@@ -177,13 +177,13 @@ nav.menu ul{
 
 nav.menu ul li{
     display: block;
-    font-size: 1.8rem;
     margin: 5px 0;
 }
 
 nav.menu ul li a{
     display: block;
     color: gray;
+    font-size: 1.8rem;
     text-decoration: none;
     display: block;
     padding: 10px;
@@ -196,22 +196,23 @@ nav.menu ul li a:hover{
 
 aside.navigation-menu .social-links{
     position: absolute;
-    bottom: 5%;
+    bottom: 15px;
     right: 50%;
     transform: translateX(50%)
 }
 
-aside.navigation-menu .social-links a{
+aside.navigation-menu .social-links i{
     color: var(--font-color-primary);
     font-size: 1.5rem;
+    text-align: center;
     width: 50px;
-    line-height: 15px;
+    line-height: 45px;
     border: 2px solid var(--font-color-primary);
     border-radius: 50%;
     text-align: center;
 }
 
-aside.navigation-menu .social-links a:hover{
+aside.navigation-menu .social-links i:hover{
     color: #6a3093;
     border: 2px solid #6a3093;
 }
@@ -673,5 +674,27 @@ i.close-fullscreen{
 
     .home-heading p{
         font-size: 1.2rem;
+    }
+}
+
+@media (max-height: 425px){
+    aside.navigation-menu{
+        overflow-Y: scroll;
+    }
+
+    nav.menu ul li a{
+        font-size: 1.3rem;
+    }
+
+    aside.navigation-menu .social-links{
+        bottom: 0;
+    }
+
+    aside.navigation-menu .social-links i{
+        width: 35px;
+        line-height: 30px;
+        border: 2px solid var(--font-color-primary);
+        border-radius: 50%;
+        text-align: center;
     }
 }
