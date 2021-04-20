@@ -634,6 +634,16 @@ i.close-fullscreen{
     .project-content{
         top: 10%;
     }
+
+    /* full screen certificates */
+
+    .fullscreen-view{
+        padding: 0;
+    }
+
+    .fullscreen-img-wraper{
+        padding: 0 2%;
+    }
 }
 
 @media (max-width: 600px){
