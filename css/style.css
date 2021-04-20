@@ -141,6 +141,7 @@ img{
     right: 210px;
     color: black;
     z-index: 3;
+    text-shadow: none;
 }
 
 .menu-hamburguer.closeBtn i::before{
@@ -342,7 +343,7 @@ section.knowledge h2{
 
 .knowledge-box-single .box-tittle h3{
     font-size: 2rem;
-    margin-left: 10px;
+    margin-left: 5px;
     text-transform: uppercase;
 }
 
