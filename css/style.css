@@ -678,10 +678,6 @@ i.close-fullscreen{
 }
 
 @media (max-height: 425px){
-    aside.navigation-menu{
-        overflow-Y: scroll;
-    }
-
     nav.menu ul li a{
         font-size: 1.3rem;
     }
@@ -696,5 +692,17 @@ i.close-fullscreen{
         border: 2px solid var(--font-color-primary);
         border-radius: 50%;
         text-align: center;
+    }
+}
+
+@media (max-height: 414px){
+    .fullscreen-img-wraper img{  
+        width: 80%;
+    }
+}
+
+@media (max-height: 280px){
+    .fullscreen-img-wraper img{  
+        width: 60%;
     }
 }
