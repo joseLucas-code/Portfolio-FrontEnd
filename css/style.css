@@ -64,7 +64,7 @@ img{
 /* HOME STYLING */
 .home-page{
     min-height: 100vh;
-    background: url(../img/bg.jpg) center rgba(0,0,0,.3);
+    background: rgba(0,0,0,0.5) url(../img/bg.jpg) center;
     display: flex;
     justify-content: center;
     align-items: center;
