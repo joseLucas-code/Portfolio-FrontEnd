@@ -21,7 +21,14 @@
         <div class="home-heading">
             <h1>Desenvolvedor Web Front-End</h1>
             <p>Luskas Ferreira</p>
-            <a href="#sobre">Saiba Mais</a>
+
+            <div class="social-links">
+                <a href="https://github.com/joseLucas-code" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/lucas_ferr3ira/?hl=pt-br" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/josé-lucas-211834205/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div><!--## SOCIAL LINKS ##-->
+
+            <a href="#projetos">Saiba Mais</a>
         </div><!--## HOME HEADING-->
 
         <div class="menu-hamburguer">
@@ -39,39 +46,76 @@
                 </ul>
             </nav><!--## MENU ##-->
 
-            <div class="social-links">
-                <a href="https://github.com/joseLucas-code" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/lucas_ferr3ira/?hl=pt-br" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/josé-lucas-211834205/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            </div><!--## SOCIAL LINKS ##-->
-
+            
         </aside><!--## NAVIGATION MENU ##-->
     </section><!--## HOME PAGE ##-->
 
     <main>
 
-        <section class="about" id="sobre">
+        <section class="projects" id="projetos">
             <div class="center-content">
 
-                <h2>Sobre</h2>
+                <h2>Projetos</h2>
 
-                <div class="about-flex">
-                    
-                    <div class="perfil-img">
-                        <img src="img/pijack.png" alt="imagem do perfil">
-                    </div><!--## PERFIL IMG ##-->
-    
-                    <div class="about-content">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos laudantium officiis esse, nemo temporibus facilis, aperiam enim distinctio culpa asperiores iure? Quasi illo delectus expedita consectetur, quisquam libero fuga distinctio.</p>
-    
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos laudantium officiis esse, nemo temporibus facilis, aperiam enim distinctio culpa asperiores iure? Quasi illo delectus expedita consectetur, quisquam libero fuga distinctio.</p>
-                    </div><!--## ABOUT CONTENT ##-->
+                <div class="projects-grid">
 
-                </div><!--## ABOUT FLEX ##-->
+                    <article class="project-box-single">
+                        <div class="project-img-wraper">
+                            <img src="img/music-proj.png" alt="image do projeto">
+                        </div><!--## PROJECT IMG WRAPER ##-->
 
-            
+                        <div class="project-content">
+                            <h3>Music Player</h3>
+                            <h4>JavaScript</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum velit error explicabo animi quo vitae quis fugiat, odit libero laboriosam aspernatur ad, omnis ipsam et, eum maxime blanditiis! Tempore, voluptates.</p>
+                            <a href="https://music-player-web-by-lucas.vercel.app/" target="_blank">Ir para</a>
+                        </div><!--## PROJECT CONTENT ##-->
+                    </article><!--## PROJECT BOX SINGLE ##-->
+
+                    <article class="project-box-single">
+                        <div class="project-img-wraper">
+                            <img src="img/quiz-proj.png" alt="image do projeto">
+                        </div><!--## PROJECT IMG WRAPER ##-->
+
+                        <div class="project-content">
+                            <h3>Quiz app</h3>
+                            <h4>JavaScript</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum velit error explicabo animi quo vitae quis fugiat, odit libero laboriosam aspernatur ad, omnis ipsam et, eum maxime blanditiis! Tempore, voluptates.</p>
+                            <a href="https://quiz-by-luskas.vercel.app/" target="_blank">Ir para</a>
+                        </div><!--## PROJECT CONTENT ##-->
+                    </article><!--## PROJECT BOX SINGLE ##-->
+
+                    <article class="project-box-single">
+                        <div class="project-img-wraper">
+                            <img src="img/port-proj.png" alt="image do projeto">
+                        </div><!--## PROJECT IMG WRAPER ##-->
+
+                        <div class="project-content">
+                            <h3>Portfólio</h3>
+                            <h4>HTML, CSS3</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum velit error explicabo animi quo vitae quis fugiat, odit libero laboriosam aspernatur ad, omnis ipsam et, eum maxime blanditiis! Tempore, voluptates.</p>
+                            <a href="https://portfolio-by-luskas.vercel.app/" target="_blank">Ir para</a>
+                        </div><!--## PROJECT CONTENT ##-->
+                    </article><!--## PROJECT BOX SINGLE ##-->
+
+                    <article class="project-box-single">
+                        <div class="project-img-wraper">
+                            <img src="img/review-proj.png" alt="image do projeto">
+                        </div><!--## PROJECT IMG WRAPER ##-->
+
+                        <div class="project-content">
+                            <h3>Random Review</h3>
+                            <h4>JavaScript</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum velit error explicabo animi quo vitae quis fugiat, odit libero laboriosam aspernatur ad, omnis ipsam et, eum maxime blanditiis! Tempore, voluptates.</p>
+                            <a href="https://luskas-randomreview.vercel.app/" target="_blank">Ir para</a>
+                        </div><!--## PROJECT CONTENT ##-->
+                    </article><!--## PROJECT BOX SINGLE ##-->
+
+                </div><!--## PROJECTS CONTAINER ##-->
+
             </div><!--## CENTER CONTENT ##-->
-        </section><!--## ABOUT ##-->
+        </section><!--## PROJECTS ##-->
+
         <section class="knowledge" id="conhecimentos">
             <div class="center-content">
 
@@ -153,56 +197,7 @@
             </div><!--## CENTER CONTENT ##-->
         </section><!--## KNOWLEDGE ##-->
 
-        <section class="projects" id="projeto">
-            <div class="center-content">
-
-                <h2>Projetos</h2>
-
-                <div class="projects-grid">
-
-                    <article class="project-box-single">
-                        <div class="project-img-wraper">
-                            <img src="img/music-proj.png" alt="image do projeto">
-                        </div><!--## PROJECT IMG WRAPER ##-->
-
-                        <div class="project-content">
-                            <h3>Music Player</h3>
-                            <h4>JavaScript</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum velit error explicabo animi quo vitae quis fugiat, odit libero laboriosam aspernatur ad, omnis ipsam et, eum maxime blanditiis! Tempore, voluptates.</p>
-                            <a href="https://music-player-web-by-lucas.vercel.app/" target="_blank">Ir para</a>
-                        </div><!--## PROJECT CONTENT ##-->
-                    </article><!--## PROJECT BOX SINGLE ##-->
-
-                    <article class="project-box-single">
-                        <div class="project-img-wraper">
-                            <img src="img/quiz-proj.png" alt="image do projeto">
-                        </div><!--## PROJECT IMG WRAPER ##-->
-
-                        <div class="project-content">
-                            <h3>Quiz app</h3>
-                            <h4>JavaScript</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum velit error explicabo animi quo vitae quis fugiat, odit libero laboriosam aspernatur ad, omnis ipsam et, eum maxime blanditiis! Tempore, voluptates.</p>
-                            <a href="https://quiz-by-luskas.vercel.app/" target="_blank">Ir para</a>
-                        </div><!--## PROJECT CONTENT ##-->
-                    </article><!--## PROJECT BOX SINGLE ##-->
-
-                    <article class="project-box-single">
-                        <div class="project-img-wraper">
-                            <img src="img/port-proj.png" alt="image do projeto">
-                        </div><!--## PROJECT IMG WRAPER ##-->
-
-                        <div class="project-content">
-                            <h3>Portfólio</h3>
-                            <h4>HTML, CSS3</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum velit error explicabo animi quo vitae quis fugiat, odit libero laboriosam aspernatur ad, omnis ipsam et, eum maxime blanditiis! Tempore, voluptates.</p>
-                            <a href="https://portfolio-by-luskas.vercel.app/" target="_blank">Ir para</a>
-                        </div><!--## PROJECT CONTENT ##-->
-                    </article><!--## PROJECT BOX SINGLE ##-->
-
-                </div><!--## PROJECTS CONTAINER ##-->
-
-            </div><!--## CENTER CONTENT ##-->
-        </section><!--## PROJECTS ##-->
+        
 
         <section class="certificates" id="certificados">
             <div class="center-content">
@@ -266,15 +261,7 @@
 
     <footer class="rodape">
         <div class="center-content">
-            <div class="copyright">
-                Copyright © 2020, ETECIA DS - Todos os diretos reservados
-            </div><!--## COPYRIGHT ##-->
-
-            <div class="social-links">
-                <a href="https://github.com/joseLucas-code" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/lucas_ferr3ira/?hl=pt-br" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/josé-lucas-211834205/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            </div><!--## SOCIAL LINKS ##-->
+                <p>Copyright © 2020, ETECIA DS - Todos os diretos reservados</p>
         </div><!--## CENTER CONTENT ##-->        
     </footer>
 
